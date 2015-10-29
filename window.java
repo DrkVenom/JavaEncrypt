@@ -20,13 +20,13 @@ import javax.swing.JScrollPane;
 public class window extends JFrame implements ActionListener{
     
     //Create text fields
-    private JTextArea input, output;
-    private JScrollPane inputPane, outputPane;
-    private JButton encrypt, decrypt, copy; 
-    private JLabel prikey, pubkey, gen; 
-    private JSeparator horline;
+    protected JTextArea input, output;
+    protected JScrollPane inputPane, outputPane;
+    protected JButton encrypt, decrypt, copy; 
+    protected JLabel prikey, pubkey, gen; 
+    protected JSeparator horline;
     
-    public window() {
+    protected window() {
         setLayout(null);
         
         prikey = new JLabel("private key");
