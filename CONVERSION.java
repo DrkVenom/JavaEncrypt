@@ -7,7 +7,7 @@ package java_encrypt;
 
 import java.math.BigInteger; 	
 
-public class conversion	{
+public class CONVERSION	{
 
 	/**
 	* takes a string and converts it to an array of strings
